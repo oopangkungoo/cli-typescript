@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to cli-typescript-starter 👋
 </h1>
-<p>
- <img align="center" alt="License: ISC" src="./assets/playground.png" />
+<p align="center">
+ <img  alt="playground img" src="./assets/playground.png" />
 
 </p>
 
