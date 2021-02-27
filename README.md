@@ -46,6 +46,10 @@ npm run clean
 ```cleanall
 npm run cleann:alls
 ```
+## 🤝 Contributing
+Contributions, issues and feature requests are welcome!
+Feel free to check [issue page](https://github.com/oopangkungoo/cli-typescript-starter/issues).
+
 
 ## Show your support
 
