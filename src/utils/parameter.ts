@@ -1,3 +1,4 @@
+import { Version } from './../operations/version';
 import { Help } from '../operations/help';
 
 interface IParameter {
@@ -19,6 +20,15 @@ const PARAMETER: IParameter[] = [
     description: 'Display help page',
     defaultValue: true,
     operationClass: Help,
+  },
+  {
+    name: 'version',
+    shortnameWithDash: '-v',
+    nameWithDash: '--version',
+    type: Boolean,
+    description: 'Display product version',
+    defaultValue: true,
+    operationClass: Version,
   },
 ];
 

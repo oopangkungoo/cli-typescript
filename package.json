@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "types": "./build/index.d.ts",
   "bin": {
-    "cli-tsc": "bin/cli-typescript"
+    "cli-typescript": "bin/cli-typescript"
   },
   "keywords": [
     "cli",

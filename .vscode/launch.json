@@ -15,7 +15,12 @@
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ],
-            "args": [],
+            "args": [
+                //"-h",
+                //"--help",
+                "-v",
+                //"--version"
+            ],
             "restart": true,
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
