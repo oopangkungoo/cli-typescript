@@ -1,10 +1,17 @@
-<h1 align="center">Welcome to cli-typescript-starter 👋</h1>
+<h1 align="center">Welcome to cli-typescript-starter 👋
+</h1>
 <p>
+ <img align="center" alt="License: ISC" src="./assets/playground.png" />
+
+</p>
+
+<p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
     <img alt="License: ISC" src="https://img.shields.io/badge/License-ISC-yellow.svg" />
   </a>
 </p>
+
 
 ## Install
 
