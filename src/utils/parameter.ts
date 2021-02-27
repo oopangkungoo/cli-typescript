@@ -1,3 +1,4 @@
+import { PlayGround } from './../operations/playground';
 import { Version } from './../operations/version';
 import { Help } from '../operations/help';
 
@@ -18,7 +19,7 @@ const PARAMETER: IParameter[] = [
     nameWithDash: '--help',
     type: Boolean,
     description: 'Display help page',
-    defaultValue: true,
+    defaultValue: false,
     operationClass: Help,
   },
   {
@@ -27,8 +28,17 @@ const PARAMETER: IParameter[] = [
     nameWithDash: '--version',
     type: Boolean,
     description: 'Display product version',
-    defaultValue: true,
+    defaultValue: false,
     operationClass: Version,
+  },
+  {
+    name: 'playground',
+    shortnameWithDash: '--pg',
+    nameWithDash: '--playground',
+    type: Boolean,
+    description: 'cli playground',
+    defaultValue: true,
+    operationClass: PlayGround,
   },
 ];
 
